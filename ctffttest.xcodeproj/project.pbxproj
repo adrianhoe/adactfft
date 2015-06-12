@@ -1,0 +1,188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1599670A2135D5002CCE60 /* ctffttest.adb in Sources */ = {isa = PBXBuildFile; fileRef = 1F1599660A2135D5002CCE60 /* ctffttest.adb */; };
+		3AC4CA680EC1754900618756 /* ctfft.ads in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4CA660EC1754900618756 /* ctfft.ads */; };
+		3AC4CA690EC1754900618756 /* ctfft.adb in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4CA670EC1754900618756 /* ctfft.adb */; };
+		3AC4CA6C0EC1759200618756 /* vector.ads in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4CA6A0EC1759200618756 /* vector.ads */; };
+		3AC4CA6D0EC1759200618756 /* vector.adb in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4CA6B0EC1759200618756 /* vector.adb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F1599530A213539002CCE60 /* ctffttest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ctffttest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1599660A2135D5002CCE60 /* ctffttest.adb */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.ada; path = ctffttest.adb; sourceTree = "<group>"; };
+		3AC4CA660EC1754900618756 /* ctfft.ads */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.ada.ads; path = ctfft.ads; sourceTree = "<group>"; };
+		3AC4CA670EC1754900618756 /* ctfft.adb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.ada.adb; path = ctfft.adb; sourceTree = "<group>"; };
+		3AC4CA6A0EC1759200618756 /* vector.ads */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.ada.ads; path = vector.ads; sourceTree = "<group>"; };
+		3AC4CA6B0EC1759200618756 /* vector.adb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.ada.adb; path = vector.adb; sourceTree = "<group>"; };
+		C6A0FF2C0290799A04C91782 /* ctffttest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ctffttest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* ctffttest */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = ctffttest;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3AC4CA6A0EC1759200618756 /* vector.ads */,
+				3AC4CA6B0EC1759200618756 /* vector.adb */,
+				3AC4CA660EC1754900618756 /* ctfft.ads */,
+				3AC4CA670EC1754900618756 /* ctfft.adb */,
+				1F1599660A2135D5002CCE60 /* ctffttest.adb */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1599530A213539002CCE60 /* ctffttest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* ctffttest.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1599520A213539002CCE60 /* ctffttest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1599550A213557002CCE60 /* Build configuration list for PBXNativeTarget "ctffttest" */;
+			buildPhases = (
+				1F1599510A213539002CCE60 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ctffttest;
+			productName = ctffttest;
+			productReference = 1F1599530A213539002CCE60 /* ctffttest */;
+			productType = "org.macada.product-type.adatool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "ctffttest" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ctffttest */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1599520A213539002CCE60 /* ctffttest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1599510A213539002CCE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1599670A2135D5002CCE60 /* ctffttest.adb in Sources */,
+				3AC4CA680EC1754900618756 /* ctfft.ads in Sources */,
+				3AC4CA690EC1754900618756 /* ctfft.adb in Sources */,
+				3AC4CA6C0EC1759200618756 /* vector.ads in Sources */,
+				3AC4CA6D0EC1759200618756 /* vector.adb in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_ADAFLAGS = "-gnatif";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		1F1599560A213557002CCE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_ADALINKFLAGS = "-lgcc_s.1";
+				PRODUCT_NAME = ctffttest;
+			};
+			name = Debug;
+		};
+		1F1599570A213557002CCE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_ADALINKFLAGS = "-lgcc_s.1";
+				PRODUCT_NAME = ctffttest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "ctffttest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1599550A213557002CCE60 /* Build configuration list for PBXNativeTarget "ctffttest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1599560A213557002CCE60 /* Debug */,
+				1F1599570A213557002CCE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
